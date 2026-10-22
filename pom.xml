@@ -6,7 +6,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>4.1.1</version>
+        <version>4.0.5</version>
         <relativePath/>
     </parent>
 
@@ -21,26 +21,22 @@
     </properties>
 
     <dependencies>
-        <!-- Soporte para Web MVC y REST Controllers -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-webmvc</artifactId>
         </dependency>
 
-        <!-- Persistencia con JPA y Hibernate -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jpa</artifactId>
         </dependency>
 
-        <!-- Base de datos en memoria H2 -->
         <dependency>
             <groupId>com.h2database</groupId>
             <artifactId>h2</artifactId>
             <scope>runtime</scope>
         </dependency>
 
-        <!-- Migraciones de base de datos con Flyway -->
         <dependency>
             <groupId>org.flywaydb</groupId>
             <artifactId>flyway-core</artifactId>
@@ -50,7 +46,6 @@
             <artifactId>flyway-database-h2</artifactId>
         </dependency>
 
-        <!-- Dependencias para tests -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-webmvc-test</artifactId>
@@ -66,5 +61,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>
