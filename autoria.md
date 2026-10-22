@@ -1,6 +1,6 @@
 # Declaración de Autoría
 
-- **Nombre del estudiante:** Aarón Naranjo
+- **Nombre del estudiante:** Aarón González Naranjo
 - **Usuario de GitHub:** aarongnaranjo2007-rgb
 - **Modalidad:** Trabajo individual
 - **Punto de partida:** Repositorio propio adaptado al stack de la asignatura (Spring Boot / Java 25).
